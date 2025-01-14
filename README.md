@@ -33,9 +33,9 @@ brew install bash
 
 After that, open the file ".bash_profile" with the following command:
 
-`sudo nano $HOME/.bash_profile`
+`nano $HOME/.bash_profile`
 
-Add this line at the end of the file:
+Add these lines at the end of the file:
 (Replace "/opt/homebrew" by the respective path on your machine)
 
 ```
@@ -55,7 +55,7 @@ Close the file with "CTRL+X" and press "Y". Reload your terminal running the fol
 
 ##### Downloading & Installing
 
-Open a terminal to download, build and install crosstool-ng from source code. 
+Open a terminal to download, build and install crosstool-ng from source code.
 Download crosstool-ng (release version 1.25.0)  with the the following command:
 
 `wget https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.25.0/crosstool-ng-1.25.0.tar.xz`
