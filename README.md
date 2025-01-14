@@ -2,6 +2,13 @@
 
 #### CrossTool-NG
 
+Easiest way is to install it via brew
+
+```
+brew install crosstool-ng
+```
+Alternatively:
+
 ##### Prerequisites
 First of all install the required packages with brew running the following commands:
 
@@ -75,6 +82,8 @@ Check that crosstool-ng has been installed typing:
 
 `ct-ng --version`
 
+#### Building tool chain
+
 ##### Preparing
 
 Open the "Utility Disk" to make a new case sensitive volume.
@@ -92,6 +101,8 @@ Create a folder here called "src".
 
 `mkdir src`
 
+##### Configuration
+
 Copy the default config from this repo to `.config`
 
 Then run
@@ -103,6 +114,8 @@ You can now modify this config:
 `ct-ng menuconfig`
 
 Make sure that C++ is enabled in the section called "Addition supported language".
+
+##### Building
 
 Now we can build the toolchain running:
 
