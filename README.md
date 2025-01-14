@@ -1,3 +1,6 @@
+Parts "borrowed" from here:
+https://github.com/giridhar123/Qt-Rpi4-Mac-Cross-Compile
+
 ### Tutorial: Compile m68k-elf-gcc on MacOS
 
 #### CrossTool-NG
